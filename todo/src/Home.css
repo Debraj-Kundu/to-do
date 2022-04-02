@@ -1,0 +1,33 @@
+.add {
+	position: fixed;;
+   	top: 85%;
+	left: 80%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+	background-color: white;
+    color: #3c4043;
+    display: inline-flex;
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+	transition: 200ms;
+	background-image: url(https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 42px;
+    content: '';
+    min-width: 56px;
+    display: block;
+}
+.add:hover{
+	transform: scale(1.2);
+	background-color: whitesmoke;
+}
+
+.material-icons.md-36 { font-size: 36px; }
+
+
+.done{
+    display: block;
+    color: green;
+    text-decoration: line-through;
+}
